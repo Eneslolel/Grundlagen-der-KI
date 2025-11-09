@@ -1,0 +1,41 @@
+[milk]
+  milk = 0
+    [fins]
+      fins = 0
+        [backbone]
+          backbone = 0
+            [airborne]
+              airborne = 0
+                [predator]
+                  predator = 0
+                    [legs]
+                      legs = 0
+                        → shellfish
+                      legs = 6
+                        → insect
+                  predator = 1
+                    → shellfish
+              airborne = 1
+                → insect
+          backbone = 1
+            [feathers]
+              feathers = 0
+                [tail]
+                  tail = 0
+                    → amphibian
+                  tail = 1
+                    [aquatic]
+                      aquatic = 0
+                        → reptile
+                      aquatic = 1
+                        [eggs]
+                          eggs = 0
+                            → reptile
+                          eggs = 1
+                            → amphibian
+              feathers = 1
+                → bird
+      fins = 1
+        → fish
+  milk = 1
+    → mammal

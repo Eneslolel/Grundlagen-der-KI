@@ -1,0 +1,45 @@
+[legs]
+  legs = 0
+    [fins]
+      fins = 0
+        [toothed]
+          toothed = 0
+            → shellfish
+          toothed = 1
+            → reptile
+      fins = 1
+        [eggs]
+          eggs = 0
+            → mammal
+          eggs = 1
+            → fish
+  legs = 2
+    [hair]
+      hair = 0
+        → bird
+      hair = 1
+        → mammal
+  legs = 4
+    [hair]
+      hair = 0
+        [aquatic]
+          aquatic = 0
+            → reptile
+          aquatic = 1
+            [toothed]
+              toothed = 0
+                → shellfish
+              toothed = 1
+                → amphibian
+      hair = 1
+        → mammal
+  legs = 5
+    → shellfish
+  legs = 6
+    [aquatic]
+      aquatic = 0
+        → insect
+      aquatic = 1
+        → shellfish
+  legs = 8
+    → shellfish

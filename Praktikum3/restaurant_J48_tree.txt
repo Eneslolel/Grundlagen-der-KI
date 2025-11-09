@@ -1,0 +1,19 @@
+[patrons]
+  patrons = Full
+    [hungry]
+      hungry = No
+        → No
+      hungry = Yes
+        [friday]
+          friday = No
+            → No
+          friday = Yes
+            [price]
+              price = $
+                → Yes
+              price = $$$
+                → No
+  patrons = None
+    → No
+  patrons = Some
+    → Yes
